@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 90%;
+  background-color: #E3E3E3;
+}
+
+header {
+  background-color: #F95959;
+  border-radius: 4px;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  width: 90%;
+  height: auto;
+  white-space: nowrap;
+}
+
+header img {
+  width: 45px;
+  height: auto;
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  width: 80%;
+  margin: 0px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* desplegable */
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* color del boton al pulsar */
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #f124f8;
+}
+
+/*deberia verse el texto al escribir en el cuadro pero no se ve*/
+
+/* cuadro de búsqueda interno */
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('img/lupa.png');
+  background-position: 1px 1px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  width: 100%;
+  padding: 14px 20px 2px 45px;
+  border: none;
+  border-bottom: 1% solid rgb(235, 235, 235);
+}
+
+/* color de seleccion del cuadro de búsqueda */
+
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
+
+/* posicion*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#generationsDropdown .itemDropdown, #typesDropdown .itemDropdown, #abilitiesDropdown .itemDropdown {
+  text-transform: capitalize;
+  display: inline-block;
+  width: 40%;
+  margin: 5px;
+}
+
+/* cuadro desplegable interno*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+/* elementos del desplegable */
+
+.dropdown-content a {
+  color: black;
+  padding: 5% 5%;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+  display: block;
+}
+
+#container {
+  width: 95%;
+  margin: auto;
+}
+
+#searcher {
+  text-align: center;
+}
+
+#searcher .searcherGroup {
+  text-align: center;
+  width: 155px;
+  display: inline-block;
+  padding: 5px;
+  font-size: 13px;
+}
+
+@media (min-width: 1024px) {
+  #searcher .searcherGroup {
+    width: 225px;
+  }
+}
+
+#searcher .searcherInput {
+  width: 80%;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px 0px;
+}
+
+#container .pokemonList {
+  text-align: center;
+  width: 100%;
+}
+
+#container h2 {
+  text-align: center;
+}
+
+.pokemonList .pokemonItem {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 145px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #455D7A;
+  margin: 5px;
+  padding: 5px;
+}
+
+.pokemonItem a {
+  color: black;
+  text-decoration: none;
+}
+
+.pokemonItem img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.pokemonItem h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+.pokemonItem .pokemonType {
+  margin: 5px;
+  color: white;
+  text-transform: capitalize;
+}
+
+#container .pageButtons {
+  margin: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.pageButtons .buttonWrapper {
+  flex: 1;
+}
+
+#previousButton, #nextButton {
+  padding: 5px;
+  border-radius: 25px;
+  color: black;
+  background-color: #F95959;
+  width: 100px;
+  display: block;
+  margin: auto;
+}

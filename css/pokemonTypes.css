@@ -1,0 +1,162 @@
+/*TODO Falta el fairy y fixme de color/letra en algunos*/
+
+.pokemonType .grass {
+  background-color: green;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.pokemonType .poison {
+  background-color: rgb(179, 11, 230);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.pokemonType .fire {
+  width: 15%;
+  background-color: rgb(255, 76, 5);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.pokemonType .bug {
+  background-color: #729F3F;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.pokemonType .dragon {
+  background-color: #7038F8;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.pokemonType .dark {
+  background-color: rgb(26, 15, 17);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.pokemonType .electric {
+  background-color: rgb(235, 252, 0);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.pokemonType .fighting {
+  background-color: #D56723;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.pokemonType .flying {
+  background-color: #A890F0;
+  border: 1px solid black;
+  padding: 3px;
+  color: black;
+  border-radius: 25px;
+}
+
+.pokemonType .ghost {
+  background-color: rgb(6, 135, 255);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: white;
+}
+
+.pokemonType .ground {
+  background-color: rgb(192, 149, 8);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: black;
+}
+
+.pokemonType .ice {
+  background-color: rgb(103, 248, 229);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: black;
+}
+
+.pokemonType .normal {
+  background-color: rgb(161, 161, 161);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: black;
+}
+
+.pokemonType .posion {
+  background-color: rgb(100, 6, 129);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: white;
+}
+
+.pokemonType .psychic {
+  background-color: rgb(192, 37, 153);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: white;
+}
+
+.pokemonType .rock {
+  background-color: #B8A038;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: black;
+}
+
+.pokemonType .steel {
+  background-color: rgb(173, 173, 173);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: black;
+}
+
+.pokemonType .water {
+  background-color: rgb(11, 88, 230);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: white;
+}
+
+.pokemonType .fairy {
+  background-color: rgb(223, 75, 215);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 25px;
+  color: black;
+}

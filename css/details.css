@@ -1,0 +1,153 @@
+.pokemonDetails {
+  max-width: 100%;
+}
+
+.pokemonDetails h1 {
+  display: inline-block;
+}
+
+.pokemonDetails h3 {
+  text-align: center;
+}
+
+.pokemonDetails .title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.pokemonDetails img {
+  display: block;
+  width: 160px;
+  height: auto;
+  margin: auto;
+}
+
+.pokemonDetails .pokemonType {
+  margin: 10px 0px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.pokemonType a {
+  text-decoration: none;
+  color: black;
+}
+
+.pokemonType .pill {
+  margin: 0 5px;
+  padding: 3px 15px;
+  text-align: center;
+  width: calc(33% - 50px);
+  display: inline-block;
+}
+
+.pokemonDetails .abilities {
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.abilities a {
+  text-decoration: none;
+  color: black;
+}
+
+.pokemonDetails .abilities .ability {
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+.pokemonDetails .pokemonStats {
+  padding: 3px;
+  margin: 15px auto;
+}
+
+.pokemonStats h2 {
+  text-align: center;
+}
+
+.pokemonStats table .statRow td {
+  margin: 5px 0px;
+}
+
+.statRow .stat {
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 40%;
+}
+
+.statRow .barStat {
+  width: 80%;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.barStat .barStatFill {
+  height: 100%;
+  text-align: center;
+  background-color: red;
+}
+
+.pokemonDetails .pokemonEvolution {
+  padding: 3px;
+  height: auto;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.pokemonEvolution h3 {
+  text-transform: capitalize;
+}
+
+.pokemonEvolution a {
+  text-decoration: none;
+  color: black;
+}
+
+.pokemonEvolution .EvolutionCard {
+  width: 50%;
+  display: inline-block;
+}
+
+.pokemonEvolution i {
+  font-size: 25px;
+  display: block;
+}
+
+.encounterAreas {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.encounterAreas .area {
+  text-transform: capitalize;
+  margin: 10px;
+  display: inline-block;
+  width: 40%;
+}
+
+.navigationButtons .backButton {
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 25px;
+  color: black;
+  background-color: #F95959;
+  width: 80px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+@media (min-width: 780px) {
+  .infoWrapper {
+    display: flex;
+  }
+  #pokemonInfo, #pokemonStats, #pokemonEvolution, #encounterAreas {
+    flex: 1;
+  }
+}
+
+#statsTable {
+  margin: auto;
+}

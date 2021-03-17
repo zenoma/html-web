@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<title>Pokedex</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/pokemonTypes.css">
+	<link rel="stylesheet" href="css/details.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<header id="wrapper" class="header">
+		<img src="img/pokeball.png" alt="logo" />
+		<h1>Pokedex</h1>
+	</header>
+	<section id="navigationButtons" class="navigationButtons">
+		<div id="backButton" class="backButton" role='button'>Back </div>
+	</section>
+	<section id="container">
+		<div id="pokemonDetails" class="pokemonDetails">
+			<div class="infoWrapper">
+				<div id="pokemonInfo">
+					<div id=title class="title">
+						<span id="pokedexId"></span>
+					</div>
+					<div id="pokemonType" class="pokemonType">
+					</div>
+					<div id="abilities" class="abilities"></div>
+				</div>
+				<div id="pokemonStats" class="pokemonStats">
+					<h2>Stats</h2>
+					<table id="statsTable">
+					</table>
+				</div>
+			</div>
+			<div class="infoWrapper">
+				<div id="pokemonEvolution" class="pokemonEvolution">
+					<h2>Evolution</h2>
+				</div>
+				<div id="encounterAreas" class="encounterAreas">
+					<h2>Encounters areas</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="script/details.js" defer></script>
+</body>
+
+</html>

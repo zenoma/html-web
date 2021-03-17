@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<title>Pokedex</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/pokemonTypes.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header id="wrapper" class="header">
+		<img src="img/pokeball.png" alt="logo" />
+		<h1>Pokedex</h1>
+	</header>
+	<section id="container">
+		<section id="searcher">
+			<div class="searcherGroup">
+				<form action="./details.html">
+					<label for="nameId">Pokemon id or name</label>
+					<input id= "nameId" name="id" type="text" class="searcherInput" autocomplete="off" placeholder="Search by name">
+					<i class="fa fa-search"></i>
+				</form>
+			</div>
+			<div class="searcherGroup dropdown">
+				<form action="./index.html">
+					<label for="generationsInput">Pokemon generation</label>
+					<input id="generationsInput" name="generation" type="text" class="searcherInput" autocomplete="off"
+						placeholder="Search by generation"
+						onkeyup="filterDropdown('generationsInput', 'generationsDropdown')"
+						onclick=" showDropdown('generationsDropdown')">
+					<div id="generationsDropdown" class="dropdown-content"></div>
+					<i class="fa fa-search"></i>
+				</form>
+			</div>
+			<div class="searcherGroup dropdown">
+				<form action="./index.html">
+					<label for="typeInput">Pokemon type</label>
+					<input id="typeInput" name="type" type="text" class="searcherInput" autocomplete="off"
+						placeholder="Search by type" onkeyup="filterDropdown('typeInput', 'typesDropdown')"
+						onclick="showDropdown('typesDropdown')">
+					<div id="typesDropdown" class="dropdown-content"></div>
+					<i class="fa fa-search"></i>
+				</form>
+			</div>
+			<div class="searcherGroup dropdown">
+				<form action="./index.html">
+					<label for="abilityInput">Pokemon ability</label>
+					<input id="abilityInput" name="ability" type="text" class="searcherInput" autocomplete="off"
+						placeholder="Search by ability" onkeyup="filterDropdown('abilityInput', 'abilitiesDropdown')"
+						onclick="showDropdown('abilitiesDropdown')">
+					<div id="abilitiesDropdown" class="dropdown-content"></div>
+					<i class="fa fa-search"></i>
+				</form>
+			</div>
+		</section>
+		<h2>Pokemon List</h2>
+		<section id="pokemonList" class="pokemonList">
+		</section>
+		<footer id="pageButtons" class="pageButtons">
+		</footer>
+
+	</section>
+	<script src="script/index.js" defer></script>
+</body>
+
+</html>
